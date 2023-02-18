@@ -12,7 +12,7 @@ function formatDate(timestamp) {
   let days = [
     "Sunday",
     "Monday",
-    "Tuesday",d
+    "Tuesday",
     "Wednesday",
     "Thursday",
     "Friday",
