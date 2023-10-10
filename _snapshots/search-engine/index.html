@@ -49,13 +49,19 @@
           <div class="row">
             <div class="col-6">
               <div class="clearfix weather-temperature">
-                <img src="" alt="Clear" id="icon" class="float-left" />
+                <img
+                  src="http://openweathermap.org/img/wn/04d@2x.png"
+                  alt="broken clouds"
+                  id="icon"
+                  class="float-left"
+                />
                 <div class="float-left">
-                  <strong id="temperature"></strong
+                  <strong id="temperature">12</strong
                   ><span class="units"
                     ><a href="#" class="active" id="celsius-link">°C </a>|<a
                       href="#"
                       id="fahrenheit-link"
+                      class=""
                     >
                       °F</a
                     ></span
@@ -70,6 +76,7 @@
               </ul>
             </div>
           </div>
+          <div class="weather-forecast" id="forecast"></div>
         </div>
         <small>
           <a
